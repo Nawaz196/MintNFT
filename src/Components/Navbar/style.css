@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  /* width: 100vw; */
+}
+
+.icon {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5vh;
+  color: #6c6c6c;
+}

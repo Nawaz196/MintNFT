@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import react from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Footer from "./Components/Footer/Footer.js";
+import Navbar from "./Components/Navbar/Navbar.js";
+import Collaborators from "./Components/Collaborators/Collaborators.js";
+import Details from "./Components/Details/Details.js";
+import Pricing from "./Components/Pricing/Pricing.js";
+import MintNFT from "./Components/MintNFT/MintNFT.js";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Collaborators />} />
+          <Route path="/details" element={<Details />} />
+          <Route path="/mintnft" element={<MintNFT />} />
+          <Route path="/pricing" element={<Pricing />} />
+        </Routes>
+
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,42 @@
+.pageButton {
+  margin-top: 20px;
+  padding: 10px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+  border-style: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+}
+
+.NavLink {
+  margin: 20px;
+  text-decoration: none;
+  color: #6c6c6c;
+}
+
+.active {
+  color: white;
+}
+
+.traingle {
+  margin-left: 10px;
+}

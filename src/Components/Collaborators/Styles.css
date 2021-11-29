@@ -1,0 +1,104 @@
+.main {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.row {
+  display: flex;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.row h3 {
+  margin: 0;
+  text-align: left;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.buttonContainer {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.sno {
+  width: 50px;
+  height: 44px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  width: 300px;
+  color: white;
+  margin-left: 10px;
+}
+
+.role {
+  width: 200px;
+  color: white;
+  margin-left: 50px;
+}
+.royaltySplit {
+  width: 200px;
+  color: white;
+  margin-left: 50px;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+input {
+  width: 100%;
+  background-color: #252525;
+  border-style: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.addButton {
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+  border-style: none;
+  color: black;
+  background-color: #6c6c6c;
+  border-radius: 10px;
+}
+
+h2 {
+  letter-spacing: 5px;
+  color: white;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+}
+
+.toggle {
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.iButton {
+  margin-top: 25px;
+
+  font-size: 1.5rem;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #6c6c6c;
+}
